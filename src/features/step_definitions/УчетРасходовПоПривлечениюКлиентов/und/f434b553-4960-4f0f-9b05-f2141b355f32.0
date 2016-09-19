@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<V8Exch:_1CV8DtUD xmlns:V8Exch="http://www.1c.ru/V8/1CV8DtUD/" xmlns:core="http://v8.1c.ru/data" xmlns:v8="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<V8Exch:Data>
+		<v8:CatalogObject.Клиенты>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Клиенты">9746e7d3-7dc5-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Клиенты">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000001</v8:Code>
+			<v8:Description>Поставщики</v8:Description>
+		</v8:CatalogObject.Клиенты>
+		<v8:CatalogObject.Клиенты>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Клиенты">9746e7d8-7dc5-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Клиенты">9746e7d3-7dc5-11e6-beff-8c89a50dff9f</v8:Parent>
+			<v8:Code>000000006</v8:Code>
+			<v8:Description>ООО "Хорошее дело"</v8:Description>
+		</v8:CatalogObject.Клиенты>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>true</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">07b72c76-7dca-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
+			<v8:Code>000000008</v8:Code>
+			<v8:Description>Сувениры</v8:Description>
+		</v8:CatalogObject.Номенклатура>
+		<v8:CatalogObject.Номенклатура>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">07b72c77-7dca-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">07b72c76-7dca-11e6-beff-8c89a50dff9f</v8:Parent>
+			<v8:Code>000000009</v8:Code>
+			<v8:Description>Фирменный брелок</v8:Description>
+			<v8:Услуга>false</v8:Услуга>
+		</v8:CatalogObject.Номенклатура>
+		<v8:DocumentObject.Покупка>
+			<v8:Ref>be05fe38-7e2c-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Date>2016-09-19T09:28:11</v8:Date>
+			<v8:Number>000000000</v8:Number>
+			<v8:Posted>false</v8:Posted>
+			<v8:Поставщик xsi:type="v8:CatalogRef.Клиенты">9746e7d8-7dc5-11e6-beff-8c89a50dff9f</v8:Поставщик>
+			<v8:СуммаПоДокументу>25</v8:СуммаПоДокументу>
+			<v8:Товары>
+				<v8:Номенклатура xsi:type="v8:CatalogRef.Номенклатура">07b72c77-7dca-11e6-beff-8c89a50dff9f</v8:Номенклатура>
+				<v8:Количество>5</v8:Количество>
+				<v8:Цена>5</v8:Цена>
+				<v8:Сумма>25</v8:Сумма>
+			</v8:Товары>
+		</v8:DocumentObject.Покупка>
+	</V8Exch:Data>
+	<PredefinedData/>
+</V8Exch:_1CV8DtUD>
