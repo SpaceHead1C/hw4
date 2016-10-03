@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.1">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаЗакрытьМесяц" id="10">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗакрытьМесяц</CommandName>
+				<ExtendedTooltip name="ФормаЗакрытьМесяцРасширеннаяПодсказка" id="11"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаУправлениеДатой" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа управление датой</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа управление датой</v8:content>
+				</v8:item>
+			</ToolTip>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаУправлениеДатойРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<InputField name="ДатаЗакрытияСтрока" id="28">
+					<DataPath>ДатаЗакрытияСтрока</DataPath>
+					<ContextMenu name="ДатаЗакрытияСтрокаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="ДатаЗакрытияСтрокаРасширеннаяПодсказка" id="30"/>
+				</InputField>
+				<Button name="КомандаМесяцНазад" id="8">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаМесяцНазад</CommandName>
+					<ExtendedTooltip name="КомандаМесяцНазадРасширеннаяПодсказка" id="9"/>
+				</Button>
+				<Button name="КомандаМесяцВперед" id="6">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.КомандаМесяцВперед</CommandName>
+					<ExtendedTooltip name="КомандаМесяцВпередРасширеннаяПодсказка" id="7"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСтатусМесяцаНеЗакрыт" id="12">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус месяца не закрыт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус месяца не закрыт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСтатусМесяцаНеЗакрытРасширеннаяПодсказка" id="13"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияКартинкаСтатусНеЗакрыт" id="14">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка статус не закрыт</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>StdPicture.MarkToDelete</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаСтатусНеЗакрытКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ДекорацияКартинкаСтатусНеЗакрытРасширеннаяПодсказка" id="16"/>
+				</PictureDecoration>
+				<LabelDecoration name="ДекорацияНадписьСтатусНеЗакрыт" id="17">
+					<TextColor>style:SpecialTextColor</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Месяц не закрыт</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияНадписьСтатусНеЗакрытКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="ДекорацияНадписьСтатусНеЗакрытРасширеннаяПодсказка" id="19"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСтатусМесяцаЗакрыт" id="20">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус месяца закрыт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа статус месяца закрыт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаСтатусМесяцаЗакрытРасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияКартинкаСтатусЗакрыт" id="22">
+					<Width>2</Width>
+					<Height>1</Height>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка статус</v8:content>
+						</v8:item>
+					</Title>
+					<Picture>
+						<xr:Ref>StdPicture.WriteAndClose</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаСтатусЗакрытКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="ДекорацияКартинкаСтатусЗакрытРасширеннаяПодсказка" id="24"/>
+				</PictureDecoration>
+				<LabelDecoration name="ДекорацияНадписьСтатусЗакрыт" id="25">
+					<TextColor>#008000</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Месяц закрыт</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияНадписьСтатусЗакрытКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ДекорацияНадписьСтатусЗакрытРасширеннаяПодсказка" id="27"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗакрытиеМесяца</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ДатаЗакрытияСтрока" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата закрытия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>16</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаЗакрытия" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата закрытия</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="КомандаМесяцВперед" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&gt;&gt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда месяц вперед</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаМесяцВперед</Action>
+		</Command>
+		<Command name="КомандаМесяцНазад" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>&lt;&lt;</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Команда месяц назад</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>КомандаМесяцНазад</Action>
+		</Command>
+		<Command name="ЗакрытьМесяц" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть месяц</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Закрыть месяц</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗакрытьМесяц</Action>
+		</Command>
+	</Commands>
+</Form>
