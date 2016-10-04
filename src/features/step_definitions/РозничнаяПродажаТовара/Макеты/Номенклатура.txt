@@ -6,7 +6,7 @@
 			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">9746e7dc-7dc5-11e6-beff-8c89a50dff9f</v8:Ref>
 			<v8:DeletionMark>false</v8:DeletionMark>
 			<v8:Parent xsi:type="v8:CatalogRef.Номенклатура">00000000-0000-0000-0000-000000000000</v8:Parent>
-			<v8:Code>000000001</v8:Code>
+			<v8:Code>TEST00001</v8:Code>
 			<v8:Description>Электроника</v8:Description>
 		</v8:CatalogObject.Номенклатура>
 		<v8:CatalogObject.Номенклатура>
