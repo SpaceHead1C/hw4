@@ -17,6 +17,14 @@
 			<v8:Code>000000006</v8:Code>
 			<v8:Description>ООО "Хорошее дело"</v8:Description>
 		</v8:CatalogObject.Клиенты>
+		<v8:CatalogObject.Клиенты>
+			<v8:IsFolder>false</v8:IsFolder>
+			<v8:Ref xsi:type="v8:CatalogRef.Клиенты">9746e7e8-7dc5-11e6-beff-8c89a50dff9f</v8:Ref>
+			<v8:DeletionMark>false</v8:DeletionMark>
+			<v8:Parent xsi:type="v8:CatalogRef.Клиенты">9746e7d3-7dc5-11e6-beff-8c89a50dff9f</v8:Parent>
+			<v8:Code>000000005</v8:Code>
+			<v8:Description>ИП Самохвалов А.А.</v8:Description>
+		</v8:CatalogObject.Клиенты>
 		<v8:CatalogObject.Номенклатура>
 			<v8:IsFolder>true</v8:IsFolder>
 			<v8:Ref xsi:type="v8:CatalogRef.Номенклатура">07b72c76-7dca-11e6-beff-8c89a50dff9f</v8:Ref>
